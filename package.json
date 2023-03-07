@@ -6,7 +6,9 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "seed": "node ./src/client/firebase/seed",
+    "server": "nodemon ./src/server"
   },
   "dependencies": {
     "expo": "~48.0.5",
